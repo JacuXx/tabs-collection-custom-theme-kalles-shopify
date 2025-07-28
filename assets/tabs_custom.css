@@ -1,0 +1,228 @@
+/* -----------------------------------------------------------------------------
+   Custom Theme CSS
+   ----------------------------------------------------------------------------- */
+
+/* ---------------- Global Custom CSS ------------------- */
+
+  .tabs-container {
+    width: 70%;
+  }
+  .custom-tabs .t4s-tab-item .t4s-text-title {
+    color: #464646;
+    font-weight: 400;
+  }
+
+  .custom-tabs .t4s-section-title.t4s-title {
+    font-size: 30px !important;
+    font-weight: 400;
+  }
+  .custom-tabs .t4s-tabs-border-bg .t4s-tabs-ul li a {
+    font-size: 15px !important;
+    border-radius: 8px !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .custom-tabs .t4s-pr-style7 .t4s-product-wrapper {
+    border-radius: 0px !important;
+    border: none !important
+  }
+  .is-selected .t4s-active {
+  border: 1px solid #D9D9D9 !important;
+}
+  .ver-btn-product {
+    background: #F1EDE9;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 5px;
+    color: #682537;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15);
+  }
+  .custom-tabs .t4s-product-info {
+    padding: 2rem 0rem !important;
+}
+.container-reviws {
+    display: flex;
+    align-content: center;
+    margin-bottom: 5px;
+  }
+  .container-reviws p {
+    margin-bottom: 0;
+    font-size: 10px;
+    color: #959595;
+  }
+  .description-card p {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+ .custom-tabs .t4s-product-title {
+    color: black !important;
+    margin-bottom: 5px !important;
+  }
+
+  .custom-tabs .t4s-product-price {
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  color: black !important;
+}
+.custom-tabs .t4s-product-price .t4s-price-from {
+  color: black !important;
+}
+
+.shadow_round_img_true .t4s-product .t4s-product-inner {
+  border-radius: 0px !important;
+}
+.custom-tabs .flickityt4s-button.flickityt4s-prev-next-button.next {
+  color: black !important;
+
+}
+.custom-tabs .flickityt4s-button.flickityt4s-prev-next-button.previous {
+  color: black !important;
+
+}
+.custom-tabs .dot.is-selected {
+  background: #682537 !important;
+}
+.custom-tabs .t4s-container {
+  position: relative;
+}
+.cereza-image {
+  position: absolute;
+  z-index: 9;
+  left: -3rem;
+  top: 4%;
+  width: 90px;
+  height: 90px;
+}
+.tabs-niñas-niño .t4s-section-title.t4s-title {
+  font-size: 25px !important;
+}
+
+
+
+/* ---------------- Desktop-only Custom CSS ------------------- */
+@media (min-width: 1025px) {
+    .tabs-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+        .t4s-tab-item.t4s-d-inline-flex.is-selected {
+    margin-right: 8px !important;
+  }
+  .custom-tabs .flickityt4s-button.flickityt4s-prev-next-button.previous {
+    top: 35%;
+  }
+  .custom-tabs .flickityt4s-button.flickityt4s-prev-next-button.next {
+    top: 35%;
+  }
+}
+
+/* ---------------- Tablet and Mobile Custom CSS ------------------- */
+@media (max-width: 1024px) {
+   
+}
+
+/* ---------------- Tablet-only Custom CSS ------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tabs-container {
+  width: 100%;
+}
+.cereza-image {
+  position: absolute;
+  z-index: 9;
+  left: 0rem;
+  top: -2%;
+  width: 90px;
+  height: 90px;
+}
+    
+}
+
+/* ---------------- Mobile-only Custom CSS ------------------- */
+@media (max-width: 768px) {
+  .tabs-container {
+  width: 100%;
+}
+.t4s-text-title {
+  font-size: 12px;
+}
+.custom-tabs .t4s-tabs-border-bg .t4s-tabs-ul li a {
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important;
+}
+.custom-tabs .t4s-section-title.t4s-title {
+  font-size: 19px !important;
+}
+.description-card p {
+  font-size: 8px !important;
+}
+.custom-tabs .t4s-product-price {
+  font-size: 10px !important;
+}
+.ver-btn-product {
+  padding: 5px 0px;
+  font-size: 11px;
+}
+.custom-tabs .t4s-product-title {
+  font-size: 13px !important;
+}
+.cereza-image img {
+  width: 54px;
+  height: auto;
+}
+.cereza-image {
+  left: 0rem !important;
+  top: 33% !important;
+}
+}
+
+/* Custom styles for header and tabs layout options */
+.tabs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tabs-header.t4s-flex-column {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.tabs-header.t4s-flex-column .tabs-container {
+  width: 100%;
+}
+
+.tabs-header.t4s-flex-column .tabs-container .t4s-tabs-ul {
+  justify-content: center !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .tabs-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+  
+  .tabs-container {
+    width: 100%;
+  }
+  
+  .tabs-container .t4s-tabs-ul {
+    justify-content: center !important;
+  }
+}
+
+/* Additional utility classes */
+.t4s-w-100 {
+  width: 100%;
+}
+
+.t4s-flex-column {
+  flex-direction: column;
+}
